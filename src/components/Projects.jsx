@@ -1,9 +1,10 @@
 import React from 'react';
-
+import { FaCode } from "react-icons/fa";
+import { CgMediaLive } from "react-icons/cg";
 const Projects = () => {
     return (
-        <div className='lg:px-20'>
-            <div className="hero bg-base-200  my-10 py-0 rounded-3xl">
+        <div id='projects' className='lg:px-20'>
+            <div className="hero bg-gradient-to-r from-teal-100 to-teal-200  my-10 py-0 rounded-3xl">
                 <div className="hero-content flex-col lg:flex-row w-full justify-around items-start">
                     <img
                         src="https://i.ibb.co.com/x5L74dB/screencapture-localhost-5174-2024-08-31-00-14-14.png"
@@ -42,15 +43,27 @@ const Projects = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='flex gap-10 justify-around my-5'>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
+                        <div className='flex lg:flex-row flex-col items-center lg:gap-10 gap-5 justify-around my-5 text-xl'>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/TravellersValley" target="_blank">Client</a> </button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/Travellers-Valley-Server" target='_blank'></a>Server</button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <CgMediaLive />
+                                <button> <a href="https://travellers-valley.web.app/"></a>Live</button>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="hero bg-base-200  my-10 py-0 rounded-3xl">
+            <div className="hero bg-gradient-to-r from-teal-200 to-teal-100  my-10 py-0 rounded-3xl">
                 <div className="hero-content flex-col lg:flex-row-reverse w-full justify-around items-start">
                     <img
                         src="https://i.ibb.co.com/vJYHRwm/screencapture-localhost-5173-2024-08-30-23-51-08.png"
@@ -88,15 +101,27 @@ const Projects = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='flex gap-10 justify-around my-5'>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
+                        <div className='flex lg:flex-row flex-col items-center lg:gap-10 gap-5  justify-around my-5'>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/BookVibe" target="_blank">Client</a> </button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/BookVibeServer" target='_blank'></a>Server</button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <CgMediaLive />
+                                <button> <a href=""></a>Live</button>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="hero bg-base-200  my-10 py-0 rounded-3xl">
+            <div className="hero bg-gradient-to-r from-teal-100 to-teal-200  my-10 py-0 rounded-3xl">
                 <div className="hero-content flex-col lg:flex-row w-full justify-around items-start">
                     <img
                         src="https://i.ibb.co.com/qmF6BcF/screencapture-localhost-5173-2024-10-10-19-48-16.png"
@@ -136,10 +161,22 @@ const Projects = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='flex gap-10 justify-around my-5'>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
-                            <button className="btn ">Get Started</button>
+                        <div className='flex lg:flex-row flex-col items-center lg:gap-10 gap-5  justify-around my-5'>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/PaintingArena" target="_blank">Client</a> </button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <FaCode />
+                                <button><a href="https://github.com/tayesh/PaintingArena-Server" target='_blank'></a>Server</button>
+
+                            </div>
+                            <div className='btn flex items-center max-w-[200px] w-full bg-teal-300 border-none hover:bg-teal-400 text-xl'>
+                                <CgMediaLive />
+                                <button> <a href=""></a>Live</button>
+
+                            </div>
                         </div>
                     </div>
                 </div>

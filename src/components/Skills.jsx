@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 const Skills = () => {
     return (
-        <div className=''>
+        <div id='skill' className=''>
             <h2 className='text-3xl text-center my-10 py-5 mx-10 border-t-2 border-b-2'>Skill Sets</h2>
             <Swiper
                 slidesPerView={6}
